@@ -49,10 +49,13 @@ numbers = input(" How many numbers shall we print? ")
 Fizz = input(" For multiples of what number shall we print 'Fizz'? ")
 Buzz = input(" For multiples of what number shall we print 'Buzz'? ")
 
+
+b = int(Buzz)
+f = int(Fizz)
 n = int(numbers)+1
 a = range(1,n)
 
 for i in range(1,n):
-print(i)
+    print(i)
 
 
