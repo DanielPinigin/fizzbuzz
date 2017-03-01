@@ -51,7 +51,8 @@ Buzz = input(" For multiples of what number shall we print 'Buzz'? ")
 
 n = int(numbers)+1
 a = range(1,n)
-print(a)
-print(list(a))
+
+for i in range(1,n):
+print(i)
 
 
