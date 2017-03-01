@@ -49,4 +49,9 @@ numbers = input(" How many numbers shall we print? ")
 Fizz = input(" For multiples of what number shall we print 'Fizz'? ")
 Buzz = input(" For multiples of what number shall we print 'Buzz'? ")
 
+n = int(numbers)+1
+a = range(1,n)
+print(a)
+print(list(a))
+
 
