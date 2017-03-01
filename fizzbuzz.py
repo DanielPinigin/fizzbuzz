@@ -56,7 +56,7 @@ f = int(Fizz)
 n = int(numbers)+1
 a = range(1,n)
 
-if n//f:
+if range(1,n)//f:
     print("Fizz")
     
 for i in range(1,n):
