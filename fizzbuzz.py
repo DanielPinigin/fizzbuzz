@@ -62,4 +62,4 @@ if range(list((1,n))//f:
 for i in range(1,n):
     print(i)
 
-
+USE FOR STATEMENTS
