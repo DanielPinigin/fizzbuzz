@@ -54,16 +54,19 @@ Buzz = input(" For multiples of what number shall we print 'Buzz'? ")
 b = int(Buzz)
 f = int(Fizz)
 n = int(numbers)+1
-a = range(1,n)
+a = list(range(1,n))
 
 x = list(range(1,n))
 for i in x:
     if i%f == 0:
+        a[i] = "Fizz"
         print("Fizz")
     elif i%b == 0:
         print("Buzz")
-    
-for i in range(1,n):
-    print(i)
+
+print(a)
+   
+#for i in range(1,n):
+#    print(i)
 
 #USE FOR STATEMENTS
