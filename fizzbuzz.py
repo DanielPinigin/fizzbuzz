@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
 Author: Daniel
-Credit: <list sources used, if any>
+Credit: Mr. Dennison & Brendan
 
 Assignment:
 
