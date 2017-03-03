@@ -60,6 +60,8 @@ x = list(range(1,n))
 for i in x:
     if i%f == 0:
         print("Fizz")
+    elif i%b == 0:
+        print("Buzz")
     
 for i in range(1,n):
     print(i)
