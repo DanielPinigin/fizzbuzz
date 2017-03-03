@@ -59,12 +59,14 @@ a = list(range(1,n))
 x = list(range(1,n))
 for i in x:
     if i%f == 0:
-        a[i] = "Fizz"
-        print("Fizz")
+        a[i-1] = "Fizz"
     elif i%b == 0:
         print("Buzz")
 
 print(a)
+for i in a:
+    print(i)
+    
    
 #for i in range(1,n):
 #    print(i)
