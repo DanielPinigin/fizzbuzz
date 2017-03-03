@@ -66,7 +66,6 @@ for i in x:
         a[i-1] = "Buzz"
         
 
-print(a)
 for i in a:
     print(i)
     
