@@ -58,10 +58,13 @@ a = list(range(1,n))
 
 x = list(range(1,n))
 for i in x:
-    if i%f == 0:
+    if i%f == 0 and i%b == 0:
+        
+    elif i%f == 0:
         a[i-1] = "Fizz"
     elif i%b == 0:
-        print("Buzz")
+        a[i-1] = "Buzz"
+        
 
 print(a)
 for i in a:
