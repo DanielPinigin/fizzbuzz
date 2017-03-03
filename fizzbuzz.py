@@ -58,7 +58,7 @@ a = range(1,n)
 
 x = list(range(1,n))
 for i in x:
-    if x//f == 1:
+    if i%f == 0:
         print("Fizz")
     
 for i in range(1,n):
