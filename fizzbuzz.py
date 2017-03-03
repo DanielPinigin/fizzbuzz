@@ -59,7 +59,7 @@ a = list(range(1,n))
 x = list(range(1,n))
 for i in x:
     if i%f == 0 and i%b == 0:
-        
+        a[i-1] = "FizzBuzz"
     elif i%f == 0:
         a[i-1] = "Fizz"
     elif i%b == 0:
