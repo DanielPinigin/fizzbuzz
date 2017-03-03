@@ -56,10 +56,11 @@ f = int(Fizz)
 n = int(numbers)+1
 a = range(1,n)
 
-if range(list((1,n))//f:
+x = list(range(1,n))
+for i in range(1,n)//f == 1:
     print("Fizz")
     
 for i in range(1,n):
     print(i)
 
-USE FOR STATEMENTS
+#USE FOR STATEMENTS
