@@ -57,7 +57,8 @@ n = int(numbers)+1
 a = range(1,n)
 
 x = list(range(1,n))
-for i in x//f == 1:
+for i in x:
+    x//f == 1:
     print("Fizz")
     
 for i in range(1,n):
